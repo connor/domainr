@@ -1,5 +1,3 @@
-Disclaimer: This is one of the first things I've written in Python. So be gentle. Recovering Rubyist here :)
-
 ![an example](http://f.cl.ly/items/2S3C261y2g0p2y2Z2c0W/Screen%20Shot%202012-06-16%20at%2010.32.31%20AM.png)
 
 ## Domainr Command Line Interface
@@ -11,7 +9,7 @@ Now if you're *really* like me, you like doing things in the command line as muc
 First go and grab the repo:
 
 ```bash
-    $ git clone https://github.com/talsafran/domainr.git
+    $ git clone https://github.com/connor/domainr.git
 ```
 
 I'm fairly confident you need version 2.6 or greater for the json library. So go and get that.
