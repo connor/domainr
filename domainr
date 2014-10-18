@@ -21,7 +21,7 @@ status_color = {
 
 def checkAvailability(domain):
 
-    con = HTTPConnection('domai.nr')
+    con = HTTPConnection('domainr.com')
     req = con.request('GET', '/api/json/info?q=%s&client_id=python_connor' % domain)
     res = con.getresponse()
 
@@ -34,7 +34,7 @@ def checkAvailability(domain):
         print "Uh oh, you got a %s %s. What the dilly?" % (res.status, res.reason)
 
 def registerDomain(domain):
-    webbrowser.open_new_tab("http://domai.nr/" + domain + "/register")
+    webbrowser.open_new_tab("https://domainr.com/" + domain + "/register")
 
 def convert_keys_to_string(dictionary):
     """Recursively converts dictionary keys to strings."""
@@ -100,7 +100,7 @@ def main(args):
 
             print "Looking up domains for %s..." % arg
 
-            con = HTTPConnection('domai.nr')
+            con = HTTPConnection('domainr.com')
             req = con.request('GET', '/api/json/search?q=%s&client_id=python_connor' % arg)
             res = con.getresponse()
 
