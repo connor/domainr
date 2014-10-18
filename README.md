@@ -1,7 +1,7 @@
 ![an example](http://f.cl.ly/items/2S3C261y2g0p2y2Z2c0W/Screen%20Shot%202012-06-16%20at%2010.32.31%20AM.png)
 
 ## Domainr Command Line Interface
-If you're like me, you love the website [Domai.nr](http://domai.nr). You type in a name you have in mind for a domain and it spits back as many clever domain possibilities as it can find, including domain hacks. That's badass.
+If you're like me, you love the website [Domainr](https://domainr.com). You type in a name you have in mind for a domain and it spits back as many clever domain possibilities as it can find, including domain hacks. That's badass.
 
 Now if you're *really* like me, you like doing things in the command line as much as possible. I check for domains every time a silly idea pops into my head, which is very often. And I like doing it fast. So that's why I wrote this Domainr CLI.
 
