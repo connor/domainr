@@ -21,8 +21,8 @@ status_color = {
 
 def checkAvailability(domain):
 
-    con = HTTPConnection('domainr.com')
-    req = con.request('GET', '/api/json/info?q=%s&client_id=python_connor' % domain)
+    con = HTTPConnection('api.domainr.com')
+    req = con.request('GET', '/v1/info?q=%s&client_id=python_connor' % domain)
     res = con.getresponse()
 
     if res.status == 200:
@@ -100,8 +100,8 @@ def main(args):
 
             print "Looking up domains for %s..." % arg
 
-            con = HTTPConnection('domainr.com')
-            req = con.request('GET', '/api/json/search?q=%s&client_id=python_connor' % arg)
+            con = HTTPConnection('api.domainr.com')
+            req = con.request('GET', '/v1/search?q=%s&client_id=python_connor' % arg)
             res = con.getresponse()
 
             if res.status == 200:
